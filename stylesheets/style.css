@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background: black;
+  margin: 0; }
+
+#board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  top: calc(50% - (400px /2 ) );
+  background: white;
+  clear: both; }
+
+.box {
+  user-select: none;
+  font-family: Sans-serif;
+  width: 33.333%;
+  height: 33.333%;
+  background: #1d1f20;
+  float: left;
+  border: 2px white solid;
+  font-size: 130px;
+  line-height: 130px;
+  text-align: center;
+  color: white; }
+  .box:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

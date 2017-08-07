@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+$width: 400px;
+html{height: 100%}
+body{
+  height: 100%;
+  background: black;
+  margin: 0;
+}
+#board{
+  position: relative;
+  width: $width;
+  height: $width;
+  margin: auto;
+  top: calc(50% - (#{$width} /2 ) );
+  background: white;
+  clear: both;
+}
+
+.box{ 
+  user-select: none;
+  font-family: Sans-serif;
+  width: 33.333%; height: 33.333%;
+  background: rgb(29,31,32);
+  float: left;
+  border: 2px white solid;
+  font-size: 130px;
+  line-height: 130px;
+  text-align: center; color: white;
+  &:hover{
+    cursor: pointer;
+  }
+}
